@@ -40,7 +40,6 @@ function OnGalleryContainerClick(event) {
 
   function OnEscButtonPush(event) {
     if (event.key === "Escape") {
-      console.log("s");
       lightBox.close();
     }
   }
